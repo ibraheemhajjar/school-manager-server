@@ -1,0 +1,38 @@
+{
+  "name": "school-manager",
+  "version": "1.0.0",
+  "description": "schoole manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "nodeJS",
+    "express",
+    "mongoose",
+    "mongoDB"
+  ],
+  "author": "ibrahim hajjar",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibraheemhajjar/school-manager.git"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.9.1",
+    "mongoose": "^6.5.4",
+    "nodemailer": "^6.7.8",
+    "pino": "^8.4.0",
+    "pino-pretty": "^8.1.0"
+  }
+}
